@@ -1,0 +1,91 @@
+/************* BASE CLASS *************/
+* {
+    font-family: Calibri;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+div#container {
+    width: 100%;
+}
+
+.label {
+    float: right;
+    clear: right;
+    font-weight: bold;
+    font-size: 20px;
+    width: 120px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    color: whitesmoke;
+    background-color: indianred;
+    padding: 3px;
+}
+
+#chickenContainer {
+    background-color: silver;
+    border: 1px solid black;
+    overflow: scroll;
+}
+
+
+#beefContainer {
+    background-color: lightskyblue;
+    border: 1px solid black;
+    overflow: scroll;
+
+}
+
+#sushiContainer {
+    background-color: lightgreen;
+    border: 1px solid black;
+    overflow: scroll;
+}
+
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 30px;
+}
+
+/************* DESKTOP VIEW *************/
+@media (min-width: 992px) {
+    .col-lg-3 {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+
+/*!************* TABLET VIEW **************!*/
+@media (min-width: 768px) and (max-width: 991px) {
+    div {
+        margin-bottom: 20px;
+    }
+    .col-md-1 {
+        float: left;
+        width: 100%;
+    }
+    .col-md-2 {
+        float: left;
+        width: 50%;
+    }
+}
+
+
+/*!************* MOBILE VIEW **************!*/
+@media (max-width: 767px) {
+    div {
+        margin-bottom: 20px;
+    }
+}
