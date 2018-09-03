@@ -14,15 +14,14 @@ h1 {
     text-align: center;
 }
 
-div#container {
+div.row {
     width: 100%;
 }
 
 .label {
     float: right;
     clear: right;
-    font-weight: bold;
-    font-size: 20px;
+    margin: 0;
     width: 120px;
     border-left: 1px solid black;
     border-bottom: 1px solid black;
@@ -32,29 +31,16 @@ div#container {
     padding: 3px;
 }
 
-#chickenContainer {
+.section {
     background-color: silver;
     border: 1px solid black;
     overflow: scroll;
-}
-
-
-#beefContainer {
-    background-color: lightskyblue;
-    border: 1px solid black;
-    overflow: scroll;
-
-}
-
-#sushiContainer {
-    background-color: lightgreen;
-    border: 1px solid black;
-    overflow: scroll;
+    margin: 20px;
 }
 
 p {
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 10px;
     padding-top: 30px;
 }
 
@@ -69,9 +55,6 @@ p {
 
 /*!************* TABLET VIEW **************!*/
 @media (min-width: 768px) and (max-width: 991px) {
-    div {
-        margin-bottom: 20px;
-    }
     .col-md-1 {
         float: left;
         width: 100%;
