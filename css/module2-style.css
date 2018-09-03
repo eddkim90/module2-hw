@@ -31,23 +31,12 @@ div.row {
     padding: 3px;
 }
 
-#chickenLabel {
-    background-color: #4a48ff;
-}
-
-#beefLabel {
-    background-color: #a2b0ff;
-}
-
-#sushiLabel {
-    background-color: #995e2b;
-}
-
 .section {
     background-color: silver;
     border: 1px solid black;
-    overflow: scroll;
     margin: 10px;
+    height: 320px;
+    overflow: scroll;
 }
 
 p {
@@ -62,6 +51,14 @@ p {
         float: left;
         width: 33.33%;
     }
+
+    .title2 {
+        display: none;
+    }
+
+    .mobileLabel {
+        display: none;
+    }
 }
 
 
@@ -71,9 +68,18 @@ p {
         float: left;
         width: 100%;
     }
+
     .col-md-2 {
         float: left;
         width: 50%;
+    }
+
+    .title2 {
+        display: none;
+    }
+
+    .mobileLabel {
+        display: none;
     }
 }
 
@@ -82,5 +88,34 @@ p {
 @media (max-width: 767px) {
     div {
         margin-bottom: 20px;
+    }
+
+    .label {
+        display: none;
+    }
+
+    .title {
+        display: none;
+    }
+
+    p {
+        padding-top: 0px;
+    }
+
+    .mobileLabel {
+        margin: 0;
+        width: 100%;
+        border-left: none;
+        border-right: none;
+        word-wrap: break-word;
+        text-align: center;
+        color: whitesmoke;
+        background-color: indianred;
+        padding: 3px;
+    }
+
+    .title2 {
+        font-family: "Times New Roman";
+        margin-left: 10px;
     }
 }
