@@ -37,6 +37,7 @@ div.row {
     margin: 10px;
     height: 320px;
     overflow: auto;
+    cursor: row-resize;
 }
 
 p {
