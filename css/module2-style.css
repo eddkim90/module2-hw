@@ -37,6 +37,9 @@ div.row {
     margin: 10px;
     height: 320px;
     overflow: auto;
+}
+
+div.section:hover {
     cursor: row-resize;
 }
 
