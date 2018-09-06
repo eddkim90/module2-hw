@@ -63,7 +63,7 @@ p {
 
 /************* DESKTOP VIEW *************/
 @media (min-width: 992px) {
-    .col-lg-3 {
+    .col-lg-4 {
         float: left;
         width: 33.33%;
     }
@@ -128,6 +128,8 @@ p {
         color: whitesmoke;
         background-color: indianred;
         padding: 3px;
+        height: 90px;
+        overflow: auto;
     }
 
     #chickenDesc {
