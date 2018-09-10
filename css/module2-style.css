@@ -118,11 +118,18 @@ p {
         padding-top: 0px;
     }
 
+    .col-sm-12 {
+        float: left;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
     .mobileLabel {
         margin: 0;
         width: 100%;
         border-left: none;
         border-right: none;
+        border-bottom: 1px solid black;
         word-wrap: break-word;
         text-align: center;
         color: whitesmoke;
@@ -146,6 +153,6 @@ p {
 
     .title2 {
         font-family: "Times New Roman";
-        margin-left: 10px;
+        margin-left: 40px;
     }
 }
